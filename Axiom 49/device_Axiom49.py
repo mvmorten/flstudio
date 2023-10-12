@@ -2,8 +2,6 @@
 
 import transport
 
-rewind_button = 0x15
-fastforward_button = 0x16
 stop_button = 0x17
 play_button = 0x18
 record_button = 0x19
