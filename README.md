@@ -10,4 +10,5 @@ Select _Axiom 49_ as the _Controller Type_.
 
 # References:
 - https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/midi_scripting.htm
+- https://forum.image-line.com/viewtopic.php?p=1892377
 - https://www.reddit.com/r/FL_Studio/comments/i8hwpq/guide_on_how_to_do_midiscripting/
