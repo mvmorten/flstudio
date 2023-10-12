@@ -9,6 +9,11 @@ stop_button = 0x17
 play_button = 0x18
 record_button = 0x19
 
+pad1 = 0x24
+pad2 = 0x26
+pad3 = 0x2E
+pad4 = 0x2A
+
 def OnMidiMsg(event):
 	event.handled = False
 	if event.data2 > 0:	
@@ -30,4 +35,16 @@ def OnMidiMsg(event):
 		if event.data1 == record_button:
 			transport.record()
 			event.handled = True            
+		if event.data1 == pad1:
+			transport.globalTransport(64, 1) #playlist
+			event.handled = True
+		if event.data1 == pad2:
+			transport.globalTransport(66, 1) #piano roll
+			event.handled = True
+		if event.data1 == pad3:
+			transport.globalTransport(65, 1) #channel rack
+			event.handled = True						
+		if event.data1 == pad4:
+			transport.globalTransport(68, 1) #mixer
+			event.handled = True				
 
