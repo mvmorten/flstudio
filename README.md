@@ -9,6 +9,7 @@ Select _Axiom 49_ as the _Controller Type_.
 ![image](https://github.com/mvmorten/flstudio/assets/12057764/aa3e6029-10d6-44dc-9a6b-4db5a112fe42)
 
 # References:
+- https://forum.image-line.com/viewtopic.php?t=315656
 - https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/midi_scripting.htm
-- https://forum.image-line.com/viewtopic.php?p=1892377
 - https://www.reddit.com/r/FL_Studio/comments/i8hwpq/guide_on_how_to_do_midiscripting/
+- https://forum.image-line.com/viewtopic.php?p=1892377
