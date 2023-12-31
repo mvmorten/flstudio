@@ -9,7 +9,7 @@ stop_button = 0x17
 play_button = 0x18
 record_button = 0x19
 
-def OnMidiMsg(event):
+def OnControlChange(event):
 	event.handled = False
 	if event.data2 > 0:	
 		if event.data1 == loop_button:
